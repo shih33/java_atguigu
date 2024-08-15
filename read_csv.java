@@ -26,7 +26,7 @@ public class readETF4 {
 			table[i] = new ETF(str[1], str[3], str[5], str[7], str[9]); 
 			i++;		
 		}
-		for(int j=0; j < table.length; j++) {
+		for(int j=0; j < i-1; j++) {
 			System.out.println(table[j].getDate() + ' '+ table[j].getSymbol() + ' ' + table[j].getUnitNetValue()
 			+ ' ' + table[j].getIssuedUnits() + ' ' + table[j].getTotalNetValue());
 		}
