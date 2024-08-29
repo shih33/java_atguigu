@@ -8,7 +8,7 @@ public class MenuItem {
 	private String link;
 	Boolean external;
     private List<MenuItem> menu = new ArrayList<>();
-    
+    public ArrayList<Ad> ad;
     
     public MenuItem() {}
     
